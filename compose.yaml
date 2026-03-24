@@ -1,0 +1,10 @@
+services:
+  client:
+    ports:
+      - "3000:3000"
+    build: ./client/
+
+  server:
+    ports:
+      - "3030:3030"
+    build: ./server/
